@@ -1,0 +1,107 @@
+/* 
+    First we define a header because name, navbar and linkcions are all in the header
+    Header is a block element, if i just apply flexbox to just our .navbar it wont be correct we need to apply it for the full header 
+*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 229, 229); 
+    padding: 20px 20px ;
+    margin-top:-30px;
+}
+
+body {
+  background-color: rgb(230, 229, 229);  
+}
+
+.navbar { 
+    margin-left: 800px; 
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none; 
+    
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+#firstname {
+    font-weight: bold;
+}
+
+.name {
+    font-family: Georgia, serif;
+    font-size: 19px;
+}
+
+#firstname {
+    font-weight: bold;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.current a {
+    border-bottom: 2px solid #e8797f;
+}
+
+
+.linkicons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.linkicons img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px; /* space on left and right sides */
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column; /* stacks title above hero */
+}
+
+#section-title {
+  font-size: 30px;
+  align-self: flex-start; /* line up title with paragraph start */
+}
+
+#hero {
+  display: flex;
+  gap: 100px;
+  align-items: flex-end; /* align bottom of image + paragraph */
+}
+
+#hero img {
+  width: 150px;   
+  height: auto;
+}
+
+
+#courses-section {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  font-size: 15px;
+}
+
+#courses-section li {
+  list-style: disc;         /* ensure bullet points are visible */
+}
