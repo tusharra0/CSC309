@@ -31,15 +31,42 @@ body {
 }
 
 
-.navbar li a {
+body {
+  background-color: rgb(230, 229, 229);  
+}
+
+.name {
+  font-family: Georgia, serif;
+  font-size: 19px;
+}
+
+#firstname {
+  font-weight: bold;
+}
+
+
+.navbar ul {
+  display: flex;
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+
+.navbar li {
   text-decoration: none;
+  list-style: none;
   color: #333;
   padding-bottom: 5px;
   font-size: 14px;
+  
 }
 
-.current a {
-  border-bottom: 2px solid #e8797f;
+.current {
+  text-decoration: underline;
+  text-decoration-color: #e8797f;
+  text-decoration-thickness: 2px;
 }
 
 .linkicons {
