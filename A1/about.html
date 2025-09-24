@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-  CSC309 Assignment 1
-  
-  University of Toronto
-  Fall 2025
--->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,23 +7,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- TODO: complete me -->
-
-  <h1><strong>About Me</strong></h1>
-
-  <details>
-    <summary> I'm currently taking the following courses:</summary>
-    <ul>
-      <li>CSC309</li>
-      <li>CSC369</li>
-      <li>CSC343</li>
-      <li>GGR172</li>
-    </ul>
-  </details>
-
-  <p>I have read and understood the University of Toronto's Code of Behaviours on Academic Matters.</p>
-
-    <embed src="https://www.panchen.ca/wp-content/uploads/2025/09/uoft-code.pdf" type="application/pdf" width="100%" style="max-width: 720px; height: 60vh;">
-
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>About me</h1>
+    <details>
+      <summary>I'm currently taking the following classes:</summary>
+      <ul>
+        <li>CSC309</li>
+        <li>CSC369</li>
+        <li>CSC343</li>
+      </ul>
+    </details>
+    <p>I have read and understood the University of Toronto's Code of Behaviours on Academic Matters.</p>
+    <embed src="https://www.panchen.ca/wp-content/uploads/2025/09/uoft-code.pdf" 
+           type="application/pdf" class="pdf-viewer">
+  </main>
+  <footer>
+    <p>Copyright 2025 by patangem.</p>
+  </footer>
 </body>
 </html>
